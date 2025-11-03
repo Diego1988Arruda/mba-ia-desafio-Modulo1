@@ -1,0 +1,43 @@
+Olá, meu nome é Diego Santos Arruda, meu registro de matricula é o 367255, e este é o trabalho da Fase 1 do Tech Challenge da Pós-Graduação em Inteligência Artificial para Desenvolvedores da FIAP.
+Este vídeo tem a finalidade de apresentar a implementação do projeto, meu objetivo aqui é criar a base de um sistema inteligente de suporte ao diagnóstico utilizando Machine Learning, focado na Classificação de Câncer de Mama (Maligno ou Benigno).
+
+Utilizei um conjunto de dados estático, em formato CSV, o Breast Cancer Wisconsin Data, que foi obtido na plataforma Kaggle.
+Este projeto foi dividido em seis partes principais:
+
+Na Parte 1: Análise Exploratória de Dados
+Observei os seguintes insights relacionados ao conjunto de dados:
+•	O dataset possui 569 amostras e, após a limpeza inicial, 30 colunas de características do tumor.
+•	A variável alvo, diagnosis, está dividida em 357 casos Benignos e 212 casos Malignos.
+•	A análise visual de distribuição, como a por symmetry_mean, já sugeriu que características morfológicas são relevantes para distinguir o diagnóstico.
+Na Parte 2: Pré-processamento de Dados
+•	Verifiquei que o dataset não continha dados nulos ou duplicados, garantindo a qualidade da base.
+•	Converti a única variável categórica (diagnosis) em formato numérico (0/1) usando Label Encoding.
+•	Dividi o conjunto de dados em features (as 30 características do tumor) e target (diagnosis).
+•	Por fim, separei os dados, destinando 80% para treinamento e 20% para teste do modelo.
+Na Parte 3: Treinamento e Comparação de Modelos
+Para criar a base preditiva, treinei e comparei três abordagens, mesmo o problema sendo de classificação binária:
+•	Regressão Linear
+•	Random Forest
+•	XGBoost
+Avaliei o desempenho no conjunto de teste usando a métrica R². O modelo escolhido foi o XGBoost, pois teve o melhor desempenho, com um R² de aproximadamente 0,795.
+
+Na Parte 4: Análise de Interpretabilidade e Validação Estatística
+•	Utilizei o Feature Importance do modelo XGBoost, que deu um insight crucial: as variáveis mais impactantes no diagnóstico são as medidas de perimeter_worst, area_worst e radius_worst.
+•	Na validação estatística, aplicamos o teste Shapiro-Wilk nos resíduos do modelo XGBoost. Obtive um p-value extremamente baixo, indicando que os resíduos não seguem uma distribuição normal. Este é um ponto de atenção, mas não invalida o poder preditivo do modelo para a classificação.
+Na Parte 5: Demonstração do Modelo
+•	Desenvolvi uma função de previsão (prever_diagnostico) para simular a entrada de dados de um novo exame.
+•	Testei o modelo XGBoost fornecendo um conjunto de dados simulado e observei o diagnóstico previsto na tela do Google Colab.
+
+Conclusão e Próximos Passos
+Cheguei às seguintes conclusões principais:
+•	O XGBoost foi o modelo mais eficiente e será a base para o sistema preditivo de diagnóstico de câncer de mama.
+•	As medidas de pior caso do tumor (perímetro, área e raio) são as variáveis mais importantes para a predição.
+Pontos de Melhoria e Próximos Passos (Alinhados ao Desafio):
+•	Métricas Corretas: A principal recomendação é avaliar o modelo com métricas de classificação mais adequadas, como Acurácia, Recall e F1-score, para uma validação mais robusta do diagnóstico.
+•	Utilização Clínica: Ressalto que, em um hospital, este sistema deve ser uma ferramenta de suporte, e o médico sempre deve ter a palavra final no diagnóstico.
+
+E para finalizar, para demonstrar o funcionamento do projeto:
+Executei o notebook no Google Colab, visualizando a saída de cada etapa, desde a exploração inicial até o teste de predição, o que valida a implementação do modelo.
+Espero que a apresentação tenha sido clara e objetiva.
+Me coloco à disposição para qualquer dúvida ou sugestão!
+Obrigado pela atenção e até logo!
