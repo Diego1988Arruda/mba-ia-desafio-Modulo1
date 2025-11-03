@@ -9,7 +9,7 @@ POSTech de IA para Devs FIAP
     
 # Entregável
  - [Video de apresentação no Youtube](xxx)
- - [Arquivo Notebook no Colab Versão]([xxx](https://colab.research.google.com/drive/1OojI1_roiQPwShd4tInm-blc2Gl9nkeY?usp=sharing))    
+ - [Arquivo Notebook no Colab Versão](https://colab.research.google.com/drive/1OojI1_roiQPwShd4tInm-blc2Gl9nkeY?usp=sharing)    
  - Github: (https://github.com/Diego1988Arruda/mba-ia-desafio-Modulo1.git)
 
 # Introdução
