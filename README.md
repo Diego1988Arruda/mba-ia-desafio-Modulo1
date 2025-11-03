@@ -3,6 +3,9 @@ POSTech de IA para Devs FIAP
 
 **Grupo 88**
  Diego Santos Arruda - RM 367255
+
+ **Turma**
+ 7IADT
     
 # Entregável
  - [Video de apresentação no Youtube](xxx)
@@ -15,7 +18,7 @@ Este projeto tem como objetivo a solução do desafio de criar a base de um sist
 
 # O Problema
 O desafio consiste em implementar um sistema de IA focado em machine learning para a Classificação de Exames , especificamente o Diagnóstico de Câncer de Mama (maligno ou benigno), com base nas características do tumor.
-A base de dados utilizada é o Breast Cancer Wisconsin Data (data.csv) do Kaggle.
+A base de dados utilizada é o Breast Cancer Wisconsin Data (data.csv) do Kaggle https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?resource=download .
 
 ## Tarefas
 
