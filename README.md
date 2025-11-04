@@ -27,7 +27,7 @@ Carregar a base de dados e explorar suas características: O dataset foi carrega
 Analise estatísticas descritivas e visualize distribuições relevantes: Verificou-se que a variável alvo ('diagnosis') possui 357 casos Benignos (0) e 212 Malignos (1). Foi gerado um histograma da distribuição de diagnósticos e um gráfico de barras cruzadas para analisar a relação da malignidade por faixas de simetria (symmetry_mean)
 
 ### Pré-processamento de dados
-Realizar a limpeza dos dados, tratando valores ausentes (se necessário): A análise inicial indicou que o dataset não possui dados nulos (isnull().sum() == 0) ou duplicados, não sendo necessária uma etapa de limpeza de valores ausentes.
+Realizar a limpeza dos dados, tratando valores ausentes (se necessário): A análise inicial indicou que o dataset não possui dados nulos ou duplicados, não sendo necessária uma etapa de limpeza de valores ausentes.
 Converta variáveis categóricas em formatos adequados para a modelagem: A variável categórica de diagnóstico ('diagnosis'), com rótulos 'B' e 'M', foi convertida em numérica (0 e 1) utilizando LabelEncoder. O dataset foi dividido em 80% para treinamento e 20% para teste (train_test_split)
 
 ### Modelagem
