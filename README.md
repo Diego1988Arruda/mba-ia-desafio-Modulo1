@@ -8,7 +8,7 @@ POSTech de IA para Devs FIAP
  7IADT
     
 # Entregável
- - [Video de apresentação no Youtube](https://vimeo.com/1133309204?share=copy&fl=sv&fe=ci)
+ - [Video de apresentação no Vimeo](https://vimeo.com/1133309204?share=copy&fl=sv&fe=ci)
  - [Arquivo Notebook no Colab Versão](https://colab.research.google.com/drive/1OojI1_roiQPwShd4tInm-blc2Gl9nkeY?usp=sharing)    
  - [Github](https://github.com/Diego1988Arruda/mba-ia-desafio-Modulo1.git)
 
